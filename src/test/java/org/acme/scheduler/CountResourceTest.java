@@ -15,7 +15,7 @@ public class CountResourceTest {
           .when().get("/count")
           .then()
              .statusCode(200)
-             .body(is("Hello RESTEasy"));
+             .body(is("count: 1"));
     }
 
 }
